@@ -1,4 +1,3 @@
-
 var primeiraImagem = document.getElementById("")
 var segundaImagem = document.getElementById("")
 var terceiraImagem = document.getElementById("")
