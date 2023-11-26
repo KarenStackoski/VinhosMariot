@@ -1,9 +1,9 @@
-var primeiraImagem = document.getElementById("")
-var segundaImagem = document.getElementById("")
-var terceiraImagem = document.getElementById("")
-var btnNext = document.getElementById("")
-var btnBack = document.getElementById("")
-var contador = 0
+var primeiraImagem = document.getElementById("img1")
+var segundaImagem = document.getElementById("img2")
+var terceiraImagem = document.getElementById("img3")
+var btnNext = document.getElementById("btnAvancar")
+var btnBack = document.getElementById("btnVoltar")
+var cont = 0
 var temporizador
 
 const caminho = "./img/"
@@ -49,7 +49,6 @@ function nextFoto(){
         terceiraImagem.src = caminho +  prefixo + listaImagem[cont - (listaImagem.length - 2)].imagem + extensão
         // console.log(cont)
     }
-
     clearInterval(temporizador)
     avançarFoto()
 }
@@ -79,14 +78,17 @@ function backFoto(){
         terceiraImagem.src = caminho +  prefixo + listaImagem[cont - (listaImagem.length - 2)].imagem + extensão
         //console.log(cont)
     }
+    clearInterval(temporizador)
+    avançarFoto()
 }
 
 function abertura(){
     primeiraImagem.src = caminho + prefixo + listaImagem[cont].imagem +extensão
     segundaImagem.src = caminho + prefixo + listaImagem[cont + 1].imagem + extensão
     terceiraImagem.src = caminho + prefixo + listaImagem[cont + 2].imagem + extensão
+    avançarFoto()
 }
 
 function avançarFoto(){
-    temporizador = setInterval(nextFoto, 2000)
+    temporizador = setInterval(nextFoto, 5000)
 }

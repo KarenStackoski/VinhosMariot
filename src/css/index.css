@@ -1,12 +1,13 @@
 /* CSS Document */
 * {
-  /* box-shadow: 0px 0px 0px 1px red; */
+  box-shadow: 0px 0px 0px 1px red;
 }
 body {
    /* background-image: linear-gradient( to top, #000, #601979 ); */
    display: flex;
-   margin: 0 auto;
+   margin: 0;
    flex-direction: column;
+   padding: 0;
 }
 
 
@@ -43,6 +44,30 @@ ul a{
   margin-top: -15%;
 }
 
-img {
-  width: 100%;
+
+.carrossel {
+  display: flex;
+  flex-direction: column;
+  max-height: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  transition: 1s;
 }
+
+.imagem{
+  display: flex;
+  justify-content: space-between;
+}
+.ConteinerImg{
+  max-width: 30%;
+}
+.ConteinerImg img{
+  width: 100%;
+  transition: 1s;
+  }
+
+.botao{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
