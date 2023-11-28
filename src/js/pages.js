@@ -1,13 +1,8 @@
 var linkSobreNos = document.getElementById("sobreNos")
 
-if (linkSobreNos.onclick){
-    window.onload = inserirSobre
-}
+linkSobreNos.addEventListener('click', e => {
+    e.preventDefault()
 
-linkSobreNos.onclick = inserirSobre
-console.log(linkSobreNos)
-
-function inserirSobre(){
     var inserir = document.getElementById("insert1")
     var inserir2 = document.getElementById("insert2")
     var maps = document.getElementById("maps")
@@ -67,4 +62,15 @@ function inserirSobre(){
     inserir2.parentElement.insertAdjacentElement("beforeend", novoPeriodo3)
 
     maps.parentElement.insertAdjacentElement("beforeend", mapa)
-}
+})
+
+var linkCardapio = document.getElementById("cardapio")
+linkCardapio.addEventListener('click', e => { 
+    e.preventDefault()
+    const p = document.createElement('p')
+    p.textContent = 'Arroz 30 reais'
+
+    document.body.appendChild(linkSobreNos)
+    document.body.appendChild(p)
+})
+
