@@ -71,3 +71,56 @@ ul a{
     justify-content: center;
     gap: 20px;
   }
+
+  .horario{
+    text-align: center;
+  }
+
+  .horario section{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .horario section section{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 25px;
+    background-color: #AB58A5;
+  }
+
+  .dia{
+    color: #ffffff;
+  }
+
+  .periodo{
+    color: #6F0984;
+    font-size: larger;
+  }
+
+  footer{
+    background-color: #601979;
+    color: #ffffff;
+  }
+
+  footer h4{
+    font-size: large;
+    margin-left: 20px;
+  }
+
+  footer section{
+    display: flex;
+  }
+
+  footer section img{
+    width: 7%;
+    height: 7%;
+  }
+
+  #developed{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 75%;
+  }
