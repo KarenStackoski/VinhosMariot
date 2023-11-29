@@ -5,53 +5,68 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta author="Karen Bialescki Stackoski, Mateus Martignago Mariot e Victor Leotte Gaz">
         <meta description="Vinhos Mariot">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="shortcut icon" href="img/iconRX.ico" type="image/x-icon">
         <title>Vinhos Mariot | Sobre Nós</title>
     </head>
     <body>
         <header>
-            <img src="../src/img/Logo.png" alt="Vinhos Mariot">
+            <section class="Logo">
+                <img src="../src/img/Logo.png" alt="Vinhos Mariot">
+            </section>
             <nav>
-                <li>
-                    <a href="../src/index.html" id="home">Home</a>
-                </li>
-                <li>
-                    <a href="../src/cardapio.html" id="cardapio">Cardápio</a>
-                </li>
-                <li>
-                    <a href="../src/Sobre.html" id="sobreNos">Sobre nos</a>
-                </li>
+                <ul>
+                    <li>
+                        <a href="../src/index.html" id="home">Home</a>
+                    </li>
+                    <li>
+                        <a href="../src/cardapio.html" id="cardapio">Cardápio</a>
+                    </li>
+                    <li>
+                        <a href="../src/Sobre.html" id="sobreNos">Sobre nos</a>
+                    </li>
+                </ul>
             </nav>
         </header>
         <main>
             <section>
-                <h1>Sobre nós!</h1>
+                <h1 class="titulo">Sobre nós!</h1>
                 <p>
-                    Vinhos Mariot é uma lanchoente localizada em Lauro Müller, na comunidade de Palermo. Surgimos como uma ideia simples de um local para vendermos nossos vinhos, cachaças e outros produtos da região, porém crescemos como um dos maiores projetos de uma simples família produtora rual. Agora a lanchonete conta com um lindo novo ambiente, acessível e aconchegante, criado para acolher a todos e servir sua produção com o atendimento e carinho familiar de primeira!
+                    Vinhos Mariot é uma lanchoente localizada em Lauro Müller, na comunidade de Palermo. Surgimos como uma ideia simples de um local para vendermos nossos vinhos, cachaças e outros produtos da região, porém crescemos como um dos maiores projetos de uma simples família produtora rural. Agora a lanchonete conta com um lindo novo ambiente, acessível e aconchegante, criado para acolher a todos e servir sua produção com o atendimento e carinho familiar de primeira!
                 </p>
             </section>
-            <section>
-                <h2>Horario</h2>
+            <section class="horario">
+                <h3 class="titulo">Horário</h3>
                 <section>
-                    <h5 class="dia1">Segunda-Feira</h5>
-                    <h5 class="periodo1">Fechado</h5>
-                    <h5 class="dia2">Terça-Feira até Sexta-Feira</h5>
-                    <h5 class="periodo2">18:00 até 23:00</h5>
-                    <h5 class="dia3">Sábado e Domingo</h5>
-                    <h5 class="periodo3">11:00 até 23:00</h5>
+                    <section>
+                        <h5 class="dia">Segunda-Feira</h5>
+                        <h5 class="periodo">Fechado</h5>
+                    </section>
+                    <section>
+                        <h5 class="dia">Terça-Feira até Sexta-Feira</h5>
+                        <h5 class="periodo">18:00 até 23:00</h5>
+                    </section>
+                    <section>
+                        <h5 class="dia">Sábado e Domingo</h5>
+                        <h5 class="periodo">11:00 até 23:00</h5>
+                    </section>                              
                 </section>
             </section>
-            <section>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.675303872499!2d-49.448854025237175!3d-28.42905275825973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9521a7ae4fdfd021%3A0xc0c91798467c7b8d!2sVinhos%20Mariot!5e0!3m2!1spt-BR!2sbr!4v1701024606213!5m2!1spt-BR!2sbr" frameborder="0"></iframe>
+            <section class="mapSection">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.675303872499!2d-49.448854025237175!3d-28.42905275825973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9521a7ae4fdfd021%3A0xc0c91798467c7b8d!2sVinhos%20Mariot!5e0!3m2!1spt-BR!2sbr!4v1701024606213!5m2!1spt-BR!2sbr" frameborder="0" allowfullscreen=""loading ="lazy" referrerpolicy="no-referer-when-downgrade" id="maps"></iframe>
             </section>
         </main>
         <footer>
             <h4>Acompanhe nossas redes</h4>
-            <img src="" alt="WhatsApp">
-            <h5>(48) 99905-5949</h5>
-            <img src="" alt="Instagram">
-            <h5>@vinhos_mariot</h5>
-            <h5>Developed by MVK</h5>
+            <section>
+                <img src="img/whatsapp.png" alt="WhatsApp">
+                <h5 class="contatos">(48) 99905-5949</h5>
+            </section>
+            <section>
+                <img src="img/instagram.png" alt="Instagram">
+                <h5 class="contatos">@vinhos_mariot</h5>
+                <h5 id="developed">Developed by MVK</h5>
+            </section>                        
         </footer>
     </body>
 </html>
