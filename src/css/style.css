@@ -196,9 +196,14 @@ footer section img {
     padding: #000, 5px;
 }
 
+section h1 {
+	text-align: center;
+}
+
 #CampoCardapio {
     display: flex;
-
+    align-items: center;
+    justify-content: center;
 }
 
 #PDFCardapio {
@@ -212,7 +217,7 @@ footer section img {
 } 
 
 #LinkCardapio {
-    flex-grow: 1;
+    /* flex-grow: 1; */
     align-self: center;
 }
 
