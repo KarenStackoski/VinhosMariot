@@ -48,10 +48,21 @@ a {
 	transition: 100ms;
 }
 
+#LinkCardapio a {
+	text-decoration: none;
+  	color: #ffffff;
+	transition: 100ms;
+}
+
 a:hover {
   	font-size: 28px;
   	color: #BB6400;
 	transition: 100ms;
+}
+
+#LinkCardapio a:hover {
+	color: #BB6400;
+	transition: 150ms;
 }
 
 .Logo img {
@@ -196,10 +207,6 @@ footer section img {
     padding: #000, 5px;
 }
 
-section h1 {
-	text-align: center;
-}
-
 #CampoCardapio {
     display: flex;
     align-items: center;
@@ -217,7 +224,6 @@ section h1 {
 } 
 
 #LinkCardapio {
-    /* flex-grow: 1; */
     align-self: center;
 }
 
