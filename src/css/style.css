@@ -2,113 +2,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
 
 * {
-  /* box-shadow: 0px 0px 0px 1px red; */
+  	/* box-shadow: 0px 0px 0px 1px red; */
 }
+
 body {
-   /* background-image: linear-gradient( to top, #000, #601979 ); */
-   display: flex;
-   margin: 0;
-   flex-direction: column;
-   padding: 0;
-   color:#ffffff;
-   background-color: #000000;
-   font-family:Lexend Giga;
+	/* background-image: linear-gradient( to top, #000, #601979 ); */
+	display: flex;
+	margin: 0;
+	flex-direction: column;
+	padding: 0;
+	color:#ffffff;
+	background-color: #000000;
+	font-family:Lexend Giga;
 }
 
-
-header  {
-  background-image: linear-gradient( to top, #000, #601979 );
-  display: flex;
-  justify-content: space-between;
-  max-height: 150px;  
+header {
+	background-image: linear-gradient( to top, #000, #601979 );
+	display: flex;
+	justify-content: space-between;
+	max-height: 150px;  
 }
 
 nav {
-  display: flex;
-  width: 55%;
-}
-ul{
-  display: flex;
-  list-style: none;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 25px;
-  flex-grow: 1;
-  
+  	display: flex;
+  	width: 55%;
 }
 
-ul a{
- text-decoration: none;
- color: #ffffff;
+ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 25px;
+	flex-grow: 1;  
 }
 
-a{
-  text-decoration: none;
-  color: #ffffff
+ul a {
+	text-decoration: none;
+	color: #ffffff;
 }
 
-a:hover{
-  font-size: 28px;
-  color: #BB6400;
+a {
+  	text-decoration: none;
+  	color: #ffffff
+}
+
+a:hover {
+  	font-size: 28px;
+  	color: #BB6400;
 }
 
 .Logo img {
-  max-width: 300px;
-  max-height: 200px;
-  margin-left: 5%;
-  margin-top: -15%;
+	max-width: 300px;
+	max-height: 200px;
+	margin-left: 5%;
+	margin-top: -15%;
 }
 
-.titulo{
-  text-align: center;
-  font-size: 30px;
+.titulo {
+	text-align: center;
+	font-size: 30px;
 }
 
-.sobreNosTexto{
-  text-align: center;
-  font-size: 25px;
-  background-color: #601979;
-  color: #ffffff;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-  padding: 2%;
-  border-radius: 25px;
+.sobreNosTexto {
+	text-align: center;
+	font-size: 25px;
+	background-color: #601979;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	padding: 2%;
+	border-radius: 25px;
 }
 
 .carrossel {
-  display: flex;
-  flex-direction: column;
-  max-height: 30%;
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: #601979;
-  padding: 2%;
-  border-radius: 25px;
+	display: flex;
+	flex-direction: column;
+	max-height: 30%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: #601979;
+	padding: 2%;
+	border-radius: 25px;
 }
 
-.imagem{
-  display: flex;
-  justify-content: space-between;
+.imagem {
+  	display: flex;
+  	justify-content: space-between;
 }
 
-.ConteinerImg{
-  max-width: 30%;
+.ConteinerImg {
+  	max-width: 30%;
 }
 
-.ConteinerImg img{
-  width: 100%;
+.ConteinerImg img {
+  	width: 100%;
 }
 
-.botao{
-  display: flex;
-  justify-content: space-between;
-  padding-left: 45%;
-  padding-right: 45%;
-  margin-top: 10px
+.botao {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 45%;
+	padding-right: 45%;
+	margin-top: 10px
 }
 
-#btnAvancar, #btnVoltar{
+#btnAvancar, #btnVoltar {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -119,18 +119,18 @@ a:hover{
     padding: 6%;
 }
 
-.horario{
+.horario {
     text-align: center;
 }
 
-.horario section{
+.horario section {
     display: flex;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.horario section section{
+.horario section section {
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -138,50 +138,54 @@ a:hover{
     background-color: #AB58A5;
 }
 
-.dia{
+.dia {
     color: #ffffff;
     font-size: 20px;
 }
 
-.periodo{
+.periodo {
     color: #6F0984;
     font-size: 25px;
 }
 
-footer{
+footer {
     background-image: linear-gradient(to bottom, #000000, #601979);
     color: #ffffff;
 }
 
-footer h4{
+footer h4 {
     font-size: large;
     margin-left: 20px;
 }
 
-footer section{
+.contatos {
+    padding-top: 20px;
+}
+
+footer section {
     display: flex;
 }
 
-footer section img{
-    width: 7%;
-    height: 7%;
+footer section img {
+    width: 150px;
+    height: 100px;
 }
 
-#developed{
+#developed {
     display: flex;
     justify-content: flex-end;
     margin-left: 75%;
 } 
 
-.mapSection{
-  width: 100%;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  background-image: linear-gradient(#000, #601979, #000 )
+.mapSection {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: linear-gradient(#000, #601979, #000 )
 }
 
-#maps{
+#maps {
     width: 85%;
     height: 350px;
     border: 0;
