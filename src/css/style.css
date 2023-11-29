@@ -195,3 +195,29 @@ footer section img {
     display: flex;
     padding: #000, 5px;
 }
+
+#CampoCardapio {
+    display: flex;
+
+}
+
+#PDFCardapio {
+    display: flex;
+    max-width: 50%;
+    justify-content: center;
+}
+
+#PDFCardapio img{
+    max-width: 50%;  
+} 
+
+#LinkCardapio {
+    flex-grow: 1;
+    align-self: center;
+}
+
+#LinkCardapio a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size:x-large;  
+}
