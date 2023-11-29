@@ -171,4 +171,21 @@ footer section img{
     display: flex;
     justify-content: flex-end;
     margin-left: 75%;
+} 
+
+.mapSection{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-image: linear-gradient(#000, #601979, #000 )
+}
+
+#maps{
+    width: 85%;
+    height: 350px;
+    border: 0;
+    margin: 1.5rem;
+    display: flex;
+    padding: #000, 5px;
 }
