@@ -49,8 +49,6 @@ function nextFoto(){
         terceiraImagem.src = caminho +  prefixo + listaImagem[cont - (listaImagem.length - 2)].imagem + extensão
         // console.log(cont)
     }
-    clearInterval(temporizador)
-    avançarFoto()
 }
 
 function backFoto(){
