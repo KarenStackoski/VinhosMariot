@@ -1,6 +1,6 @@
 /* CSS Document */
 * {
-  box-shadow: 0px 0px 0px 1px red;
+  /* box-shadow: 0px 0px 0px 1px red; */
 }
 body {
    /* background-image: linear-gradient( to top, #000, #601979 ); */
@@ -8,6 +8,8 @@ body {
    margin: 0;
    flex-direction: column;
    padding: 0;
+   background-color: #000;
+   color: #ffffff;
 }
 
 
@@ -51,7 +53,6 @@ ul a{
   max-height: 30%;
   margin-left: 5%;
   margin-right: 5%;
-  transition: 1s;
 }
 
 .imagem{
@@ -61,10 +62,38 @@ ul a{
 .ConteinerImg{
   max-width: 30%;
 }
-.ConteinerImg img{
+
+img{
   width: 100%;
-  transition: 1s;
-  }
+}
+
+#CampoCardapio {
+  display: flex;
+
+}
+#PDFCardapio {
+  display: flex;
+  max-width: 50%;
+  justify-content: center;
+
+}
+#PDFCardapio img{
+
+  max-width: 50%;
+  
+}
+ 
+
+#LinkCardapio {
+  flex-grow: 1;
+  align-self: center;
+}
+
+#LinkCardapio a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size:x-large;  
+}
 
 .botao{
     display: flex;
@@ -101,7 +130,7 @@ ul a{
   }
 
   footer{
-    background-color: #601979;
+    background-image: linear-gradient( to bottom, #000, #601979 );
     color: #ffffff;
   }
 
