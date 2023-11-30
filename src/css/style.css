@@ -232,3 +232,57 @@ footer section img {
     text-decoration: none;
     font-size:x-large;  
 }
+
+@media (max-width: 900px){
+	.sobreNosTexto {
+		font-size: 15px;
+	}
+
+	#img2, #img3 {
+		display: none;
+	}
+
+	#img1 {
+		position: absolute;
+		border-radius: 15px;
+	}
+  
+	.ConteinerImg img {
+		width: 86%;
+	}
+
+	.botao {
+		margin-top: 250px;
+		height: 30px;
+		width: 80px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+
+	.horario {
+		text-align: center;
+	}
+	
+	.horario section {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.horario section section {
+		width: 90%;
+		border-radius: 25px;
+		background-color: #AB58A5;
+		margin-bottom: 4px;
+	}
+	
+	.dia {
+		color: #ffffff;
+		font-size: 15px;
+	}
+	
+	.periodo {
+		color: #6F0984;
+		font-size: 20px;
+	}
+}
