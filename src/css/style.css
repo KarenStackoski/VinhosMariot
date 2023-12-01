@@ -53,6 +53,13 @@ a {
 	transition: 100ms;
 }
 
+#linkCardapio{
+	padding: auto;
+	margin-bottom: 0;
+	height: 20rem;
+}
+
+
 #LinkCardapio a {
 	text-decoration: none;
   	color: #ffffff;
@@ -257,7 +264,8 @@ footer section img {
 		display: flex;
 		justify-content: center;
 		flex-grow: 1;
-		margin-left: 25%;
+		margin-left: 15%;
+		align-items: center;
 	}
 	.Logo img {
 		width: 70%;
@@ -309,6 +317,29 @@ footer section img {
 		padding: auto;
 		margin-bottom: 2rem;
 	}
+  
+	.carrossel{
+		padding-bottom: 25%;
+	}
+
+	#CampoCardapio{
+		margin-bottom: calc(100vh - 44rem) ;
+		margin-top: 7rem;
+	}
+
+	#btnAvancar, #btnVoltar {
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		border-radius: 20px;
+		background-color: #AB58A5;
+		color: #601979;
+		font-weight: bolder;
+		padding: 20%;
+		margin-right: 3.5rem;
+		margin-left: -1.5rem;
+	}
+
 	.imagem{
 		padding: auto;
 
@@ -390,5 +421,13 @@ footer section img {
 		font-size: 15px;
 		padding-top: 0;
 		margin-top: 15px;
+	}
+}
+
+@media (max-width: 500px){
+	.Logo {
+		display: block;
+		flex-grow: 1;
+		margin-left: 0;
 	}
 }
