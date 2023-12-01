@@ -335,17 +335,19 @@ footer section img {
 	#img2, #img3 {
 		display: none;
 	}
-	#img1 {
-		position: absolute;
-		border-radius: 15px;
+
+	.ConteinerImg{
+		max-width: 100%;
+		border-radius: 25px;
 	}
-  
+
 	.ConteinerImg img {
-		width: 86%;
+		width: 100%;
+		border-radius: 25px;
 	}
 
 	.botao {
-		margin-top: 250px;
+		margin-top: 0;
 		height: 30px;
 		width: 80px;
 		margin-left: auto;
@@ -364,19 +366,22 @@ footer section img {
 	
 	.horario section section {
 		width: 90%;
+		height: 100px;
 		border-radius: 25px;
 		background-color: #AB58A5;
-		margin-bottom: 4px;
+		margin-bottom: 10px;
 	}
 	
 	.dia {
 		color: #ffffff;
 		font-size: 15px;
+		margin-bottom: 0;
 	}
 	
 	.periodo {
 		color: #6F0984;
 		font-size: 20px;
+		margin-top: 10px;
 	}
 
 	footer section img {
