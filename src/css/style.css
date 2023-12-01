@@ -267,9 +267,10 @@ footer section img {
 	ul{
 		flex-direction: column;
 		margin: 0;
+		margin-top: 0.5rem;
 		position: absolute;
 		visibility: hidden; 
-		right: 0.6rem;
+		right: 0rem;
 		top: 4rem;
 		text-align: center;
 		background-color: rgba(0, 0, 0, 0.5 );
@@ -308,10 +309,6 @@ footer section img {
 		padding: auto;
 		margin-bottom: 2rem;
 	}
-	.carrossel{
-		padding-bottom: 25%;
-	}
-
 	.imagem{
 		padding: auto;
 
