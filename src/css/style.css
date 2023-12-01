@@ -53,6 +53,13 @@ a {
 	transition: 100ms;
 }
 
+#linkCardapio{
+	padding: auto;
+	margin-bottom: 0;
+	height: 20rem;
+}
+
+
 #LinkCardapio a {
 	text-decoration: none;
   	color: #ffffff;
@@ -310,6 +317,24 @@ footer section img {
 	}
 	.carrossel{
 		padding-bottom: 25%;
+	}
+
+	#CampoCardapio{
+		margin-bottom: calc(100vh - 44rem) ;
+		margin-top: 7rem;
+	}
+
+	#btnAvancar, #btnVoltar {
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		border-radius: 20px;
+		background-color: #AB58A5;
+		color: #601979;
+		font-weight: bolder;
+		padding: 20%;
+		margin-right: 3.5rem;
+		margin-left: -1.5rem;
 	}
 
 	.imagem{
