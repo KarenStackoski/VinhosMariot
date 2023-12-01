@@ -264,7 +264,8 @@ footer section img {
 		display: flex;
 		justify-content: center;
 		flex-grow: 1;
-		margin-left: 17%;
+		margin-left: 15%;
+		align-items: center;
 	}
 	.Logo img {
 		width: 70%;
@@ -420,4 +421,10 @@ footer section img {
 		margin-top: 15px;
 	}
 }
-
+@media (max-width: 500px){
+	.Logo {
+		display: block;
+		flex-grow: 1;
+		margin-left: 0;
+	}
+}
