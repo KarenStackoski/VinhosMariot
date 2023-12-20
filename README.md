@@ -1,5 +1,5 @@
 <p align="center">
-  ![Alt text](/src/img/Logo.png?raw=true "Title")
+  <img src="/src/img/Logo.png" alt="Logo Vinhos Mariot">
 </p>
 
 # VinhosMariot
