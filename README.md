@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center" margin-top="-20" margin-bottom="-20">
   <img src="/src/img/Logo.png" alt="Logo Vinhos Mariot">
 </p>
 
