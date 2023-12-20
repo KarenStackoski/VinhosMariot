@@ -7,7 +7,7 @@ This is a static web site made for a small business called *Vinhos Mariot* using
 
 > You can access the web site with this url: https://vinhosmariot.000webhostapp.com/index.html
 
-###This web site was created by:
+### This web site was created by:
 - [Karen Bialescki Stackoski](github.com/KarenStackoski)
 - [Mateus Martignago Mariot](github.com/korott)
 - [Victor Leotte Gaz](github.com/xleotte)
